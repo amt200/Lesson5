@@ -10,10 +10,11 @@ const Lesson05quiz = () => {
 
     display.push(<Text key={PET_DATA.name}>{str + PET_DATA.name}</Text>);
     display.push(<Text key={PET_DATA.age}>{str + PET_DATA.age}</Text>);
-    display.push(<Image source ={PET_DATA.image}/>);
+    display.push(<Image source={PET_DATA.image}/>);
     display.push(<Text key={OWNER_DATA.name}>{str + OWNER_DATA.name}</Text>)
     display.push(<Text key={OWNER_DATA.contact}>{str + OWNER_DATA.contact}</Text>)
     display.push(<Text key={OWNER_DATA.membership}>{str + OWNER_DATA.membership}</Text>)
+
     return (
         <View>
             {display}
